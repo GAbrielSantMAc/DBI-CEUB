@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ClienteIndiceMassaCorporal" directorySegmentName="seg_0" id="FEB2BF7F-954C-CCED-CF11-580159CB7D38">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:55:13 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2B33F7C7-5003-8438-4099-2A8BC8A2E3DD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F879D32F-0298-6059-B94C-76773159FFAF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

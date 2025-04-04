@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F879D32F-0298-6059-B94C-76773159FFAF" name="IndiceMassaCorporal">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:52:23 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="A17A3997-FC69-E5E6-248C-ABC7F99B1760">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:52:52 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Peso" id="29A6BE9E-29B0-51CC-A840-878B1D90982A">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:53:21 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diasDieta" id="84D614BA-8793-AD01-17F1-6629A4AA23C0">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:53:30 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="treinoFisico" id="9F2D53FA-01F9-DB38-1C7B-E76BF3EDFA56">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:53:40 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Altura" id="CF09BA93-4C57-DD33-FCE0-2E2588040AE1">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:54:03 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataImc" id="1BFF2EFC-5CBB-E914-2204-C08BB2DFBDCD">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 23:07:07 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivelObesidade" id="049EBE48-FB85-9371-6A8B-5F1CCE39BB53">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 23:14:42 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="problemasSaude" id="6F0BA323-8F1E-D180-BCAC-F69E6603D8FB">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 23:14:55 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="relatórioProgresso" id="5FCAD9E8-FD0A-08D2-5ECF-60CF8865922E">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 23:15:06 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

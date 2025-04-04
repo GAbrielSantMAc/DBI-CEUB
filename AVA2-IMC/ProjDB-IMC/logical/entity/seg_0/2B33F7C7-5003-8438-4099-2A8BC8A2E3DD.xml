@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B33F7C7-5003-8438-4099-2A8BC8A2E3DD" name="Cliente">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:44:39 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="A0F561E3-0125-D412-8045-471F2F88EB85">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:48:40 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="7AAC2F3A-710C-BFC0-4536-6E47C4A6587B">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:49:43 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="431489D4-6400-E6F7-E24B-65AE1C075DE5">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:50:14 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="29B4B1AF-F62D-E06D-B69C-F84813CF7CCE">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:50:19 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="AFB209E9-57CA-FFA1-9BFE-610E17E0E82D">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:50:30 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sexo" id="F6B6718F-E2E8-81D5-6B14-1363776BB00F">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 22:50:54 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="historicoSaude" id="0EF22680-2EB8-0F69-330B-F81A47D4D8FE">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 23:16:49 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rotina" id="D6BE8EA0-8F53-84E7-F348-CFD38F696F29">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 23:17:28 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Meta" id="F4A5BAA2-9BD2-6CA7-401C-F3101CEDF9B1">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 23:19:39 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Obstáculos" id="2B734810-6843-A36A-31A5-B1F299A45063">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-04-03 23:20:01 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="8CC10011-C4D7-93F1-AAC7-8FADE905DD15" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
