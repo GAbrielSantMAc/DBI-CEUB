@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="71DD36C0-4DAB-31BD-65DE-372EF7217F55" name="IdentificaçãoCliente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="8C4CE0CD-77AF-2B30-BE25-2B6FD9B843BD" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="2CA1C4C6-252D-4CAE-A475-FA5C9CBA6DA4" name="ItensPedido" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="8C4CE0CD-77AF-2B30-BE25-2B6FD9B843BD" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="9C2082D1-A39C-B557-C0E8-313A2728A980" name="Pedido" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="8C4CE0CD-77AF-2B30-BE25-2B6FD9B843BD" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="9AB5A2D6-FC0F-4C1E-8473-7E6071D9D83A" name="Vendedor" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="8C4CE0CD-77AF-2B30-BE25-2B6FD9B843BD" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

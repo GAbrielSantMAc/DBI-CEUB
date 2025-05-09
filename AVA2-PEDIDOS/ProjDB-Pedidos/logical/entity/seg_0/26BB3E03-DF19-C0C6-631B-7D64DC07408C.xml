@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26BB3E03-DF19-C0C6-631B-7D64DC07408C" name="IdentificaçãoCliente">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-08 23:47:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8C4CE0CD-77AF-2B30-BE25-2B6FD9B843BD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="clienteCpf" id="480AEF82-8DAE-0300-D80D-1C2ECDCEC183">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-08 23:49:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8C4CE0CD-77AF-2B30-BE25-2B6FD9B843BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="2A587663-3F82-10EE-0163-ACA203F1A8D1">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-08 23:50:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8C4CE0CD-77AF-2B30-BE25-2B6FD9B843BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoCliente" id="1C6F2D09-1D9C-9B55-6CDF-5006CEE242ED">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-08 23:50:44 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8C4CE0CD-77AF-2B30-BE25-2B6FD9B843BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="11FE8386-8AEE-D291-26E5-5CD7E631830E">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-08 23:52:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8C4CE0CD-77AF-2B30-BE25-2B6FD9B843BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pedido" id="3017B145-5C53-14AD-2926-70637F282B4F">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:25:27 UTC</createdTime>
+<generatorID>1A7713CC-ACC1-C3DF-2636-AD98CD0E0EC4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8C4CE0CD-77AF-2B30-BE25-2B6FD9B843BD" value="true"/>
+</engineerTo>
+<referedAttribute>3F0000A2-D7DE-8F3C-B233-9BFA2B2092E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="930A0B13-9386-B5F3-1A9B-2A9C496C8750" name="IdentificaçãoCliente PK">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-08 23:49:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8C4CE0CD-77AF-2B30-BE25-2B6FD9B843BD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>480AEF82-8DAE-0300-D80D-1C2ECDCEC183</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

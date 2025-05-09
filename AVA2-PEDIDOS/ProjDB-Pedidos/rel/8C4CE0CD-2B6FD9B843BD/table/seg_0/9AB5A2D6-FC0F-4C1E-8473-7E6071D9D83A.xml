@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AB5A2D6-FC0F-4C1E-8473-7E6071D9D83A" name="Vendedor">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<generatorID>B134A176-42A9-3698-30DC-D77F65C7D462</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matricula" id="D59BC415-72BD-1430-D187-787536552462">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<generatorID>0C4287F7-1FF3-408C-B143-5DF14916E196</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCompleto" id="A9C1B529-00D4-2387-0C41-5AC684E58CB0">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<generatorID>AF9ADA0C-7AB8-1895-BA8A-96032646C185</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedido_id_pedido" id="DB236571-5AFE-00C5-8B3B-DEE074856799">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<generatorID>21733D5F-5E58-BF15-4B6D-AC4E9889B60A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D00BA7F7-474D-DC53-F3AE-6B13B77D9BAF" name="Vendedor_PK">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<generatorID>98E4AA10-5F33-6C2B-D85C-8E2C3018EFF2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D59BC415-72BD-1430-D187-787536552462"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A5DAD68-5A49-9BA4-0ADE-40040D63FC46" name="Vendedor__IDX">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>74A82B71-E917-B4B5-68A9-393CC8480679</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DB236571-5AFE-00C5-8B3B-DEE074856799"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

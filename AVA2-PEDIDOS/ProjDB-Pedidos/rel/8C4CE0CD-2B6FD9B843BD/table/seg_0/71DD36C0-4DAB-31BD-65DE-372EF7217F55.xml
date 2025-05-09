@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71DD36C0-4DAB-31BD-65DE-372EF7217F55" name="IdentificaçãoCliente">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<generatorID>26BB3E03-DF19-C0C6-631B-7D64DC07408C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="clienteCpf" id="97C409CF-8815-FD8D-5BFF-84E41B97D9EC">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<generatorID>480AEF82-8DAE-0300-D80D-1C2ECDCEC183</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="86C147BE-0D9B-4CE2-D034-BBB9592D48A2">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<generatorID>2A587663-3F82-10EE-0163-ACA203F1A8D1</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecoCliente" id="D3B5C954-8997-39DC-097B-DDB659B8C26A">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<generatorID>1C6F2D09-1D9C-9B55-6CDF-5006CEE242ED</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="FF2E3D06-79C0-54F8-6BAB-8B840026C460">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<generatorID>11FE8386-8AEE-D291-26E5-5CD7E631830E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedido_id_pedido" id="EF18C83B-CE37-E977-0D5F-9D2583932587">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<generatorID>3017B145-5C53-14AD-2926-70637F282B4F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DB730C1-C0FB-FF2B-437A-DF0A2CDB6C77" name="IdentificaçãoCliente_PK">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<generatorID>930A0B13-9386-B5F3-1A9B-2A9C496C8750</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97C409CF-8815-FD8D-5BFF-84E41B97D9EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4BF18C2-0BEC-4CFB-726A-ADD4618EE97A" name="IdentificaçãoCliente__IDX">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-09 00:35:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1A7713CC-ACC1-C3DF-2636-AD98CD0E0EC4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EF18C83B-CE37-E977-0D5F-9D2583932587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
