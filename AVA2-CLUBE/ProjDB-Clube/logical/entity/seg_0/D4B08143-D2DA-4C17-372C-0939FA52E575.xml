@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4B08143-D2DA-4C17-372C-0939FA52E575" name="Dependente">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:41:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdDependente" id="216BF814-2E58-E315-079A-8E14C79145BC">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:42:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="C1F28B72-2FF2-4E29-7718-5CD751D0282D">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:42:26 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento  " id="F209B206-74EC-6822-161E-8EBB5E0FA774">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:42:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentesco  " id="6D70C848-FC45-CAE6-70DB-FE219144EFA5">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:43:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_associado" id="A4BFBBCE-EDBC-FC28-E209-D6E0C7B3A64A">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:43:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdAssociado" id="2DBE09DC-CD29-B98E-400D-5F2FAF718009">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:47:33 UTC</createdTime>
+<generatorID>3CAD72F6-CB88-9BE0-E13D-3D2D954785D6</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<referedAttribute>D1BA909B-C2BA-34D7-7300-66A6DB6C5490</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D0D34B5-0045-F566-7C70-ED99E366CDEC" name="Dependente PK">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:42:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>216BF814-2E58-E315-079A-8E14C79145BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

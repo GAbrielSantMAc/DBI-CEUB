@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="DF4F6A92-F9D1-DC8C-1808-F24F57F25B6D" name="Associado" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="1A9737C8-FCC5-AF04-014B-FEB31DCB3797" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D4B08143-D2DA-4C17-372C-0939FA52E575" name="Dependente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="1A9737C8-FCC5-AF04-014B-FEB31DCB3797" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="2BEC2986-E103-12DE-9615-C7C51A67E746" name="Mensalidade" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="1A9737C8-FCC5-AF04-014B-FEB31DCB3797" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="3CAD72F6-CB88-9BE0-E13D-3D2D954785D6" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="1A9737C8-FCC5-AF04-014B-FEB31DCB3797" propertySourceId="DF4F6A92-F9D1-DC8C-1808-F24F57F25B6D" propertyTargetId="D4B08143-D2DA-4C17-372C-0939FA52E575"/>
+   <object objectType="Relation" objectID="D4376A85-E89B-BE57-DC2A-C69860E97056" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="1A9737C8-FCC5-AF04-014B-FEB31DCB3797" propertySourceId="DF4F6A92-F9D1-DC8C-1808-F24F57F25B6D" propertyTargetId="2BEC2986-E103-12DE-9615-C7C51A67E746"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

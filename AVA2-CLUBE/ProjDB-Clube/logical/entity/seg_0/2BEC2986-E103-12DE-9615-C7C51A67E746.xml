@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BEC2986-E103-12DE-9615-C7C51A67E746" name="Mensalidade">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:44:16 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdMensalidade" id="D8BD51E7-2698-4A57-A868-271B84126441">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:44:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAssociado" id="8FD3004B-7B84-E502-EE1E-890E22F81963">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:45:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="EA60C18F-5CE3-B8A6-0AFB-0473A49D3A79">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:45:27 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_vencimento" id="75A8FDB7-9FDC-FD60-1AE0-63F1AC902977">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:45:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datapagamento" id="745FB107-BBB3-D7B2-5740-D89FF5FD7E95">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:46:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPagamento" id="DA1F1DB9-45B9-3434-B006-B4CEE4393404">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:46:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdAssociado1" id="5B6690E5-053B-83AF-357C-8AF78E57EC1A">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:47:40 UTC</createdTime>
+<generatorID>D4376A85-E89B-BE57-DC2A-C69860E97056</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<referedAttribute>D1BA909B-C2BA-34D7-7300-66A6DB6C5490</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="42DA0F65-43C1-EB5C-5A2E-F63B48181971" name="Mensalidade PK">
+<createdBy>gabriel.santosm</createdBy>
+<createdTime>2025-05-16 00:45:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="51B77B41-EF28-7BD3-24F9-4C01AC2BB301" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D8BD51E7-2698-4A57-A868-271B84126441</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
