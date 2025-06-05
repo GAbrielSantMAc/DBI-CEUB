@@ -8,6 +8,7 @@
  [X] - DBI-Avaliação 2-03 - AVA2-PEDIDOS
 
 
+
 ## b) Recomendo reforçar seus estudos em:
 
  [ ] - Abstração no negócio
